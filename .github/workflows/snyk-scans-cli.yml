@@ -75,5 +75,5 @@ jobs:
     - name: Run and monitor Snyk to check configuration files for security issues
       run: |   
         snyk auth ${{ secrets.SNYK_TOKEN }}
-        snyk iac test --report
+        snyk iac test --report 
  
